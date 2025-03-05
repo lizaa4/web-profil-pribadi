@@ -1,0 +1,105 @@
+body {
+    font-family:'Poppins';
+    background-color: #EEE2DC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #BAB2B5;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #B0C4DE;
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-picture img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #E0FFFF;
+    transition: transform 0.3s ease;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.1);
+}
+
+.description {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #555;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin: 20px 0;
+}
+
+
+.details ul, .education ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li, .education ul li, .hobbies ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #484d48;
+}
+
+h2 {
+    color: #FFEFD5;
+    border-bottom: 2px solid #EEE2DC;
+    padding-bottom: 5px;
+}
+
+
+.motto {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #f9f9f9;
+    box-shadow: 0 4px 6px rgb(214, 213, 211);
+}
+
+/* Animasi Wave Text */
+.wave-text {
+    display: inline-block;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.wave-text span {
+    display: inline-block;
+    animation: wave 1s infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes wave {
+    0%, 40%, 100% { transform: translateY(0); }
+    20% { transform: translateY(-10px); }
+}
