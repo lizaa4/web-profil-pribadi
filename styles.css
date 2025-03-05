@@ -102,8 +102,4 @@ h2 {
 @keyframes wave {
     0%, 40%, 100% { transform: translateY(0); }
     20% { transform: translateY(-10px); }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> eebe0e8 (commit)
